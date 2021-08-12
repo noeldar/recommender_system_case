@@ -2,7 +2,7 @@ import pandas as pd
 from testbook import testbook
 
 
-@testbook('preprocessing2.ipynb', execute=True)
+@testbook('preprocessing.ipynb', execute=True)
 def test_func(tb):
    func = tb.get("filter_negative_price")
 
